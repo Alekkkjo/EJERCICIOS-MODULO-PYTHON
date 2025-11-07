@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.mypy_cache/
+.env/
+venv/
+.DS_Store
+/dist/
+/build/
+*.egg-info/
+.idea/
+.vscode/
+proyecto_python_modulo3.zip

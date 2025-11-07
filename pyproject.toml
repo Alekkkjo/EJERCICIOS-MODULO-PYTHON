@@ -1,0 +1,15 @@
+[project]
+name = "proyecto_python_modulo3"
+version = "0.1.0"
+description = "Colección de ejercicios del Módulo 3: Funciones, Modularización y Manejo de Archivos"
+requires-python = ">=3.10"
+dependencies = [
+    "rich",
+]
+[project.optional-dependencies]
+dev = ["pytest", "ruff"]
+
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "W", "C90", "B", "Q"]
+ignore = ["E203", "W503"]
